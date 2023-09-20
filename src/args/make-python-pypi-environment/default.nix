@@ -111,27 +111,27 @@ assert builtins.any (_: _) [
           sources.links
           (listOptional withCython_0_29_24 {
             name = "Cython-0.29.24-py2.py3-none-any.whl";
-            sha256 = "11c3fwfhaby3xpd24rdlwjdp1y1ahz9arai3754awp0b2bq12r7r";
+            sha256 = "";
             url = "https://files.pythonhosted.org/packages/ec/30/8707699ea6e1c1cbe79c37e91f5b06a6266de24f699a5e19b8c0a63c4b65/Cython-0.29.24-py2.py3-none-any.whl";
           })
           (listOptional withSetuptools_67_7_2 {
             name = "setuptools-67.7.2-py3-none-any.whl";
-            sha256 = "0awmhw9a3z21qqhrd0xgaqjpnlbp5pqh69yk06wcwlnahmmziai3";
+            sha256 = "I6r4a4XKUs64AdMnA/Etd1F7JVavg5YhxkH8oRKHlSs=";
             url = "https://pypi.org/packages/py3/s/setuptools/setuptools-67.7.2-py3-none-any.whl";
           })
           (listOptional withSetuptoolsScm_7_1_0 {
             name = "setuptools_scm-7.1.0-py3-none-any.whl";
-            sha256 = "13ix4l2q4w34h1kpalyaryxr55d2dsc8r91a2jpy42c7hinqp63k";
+            sha256 = "";
             url = "https://files.pythonhosted.org/packages/py3/s/setuptools_scm/setuptools_scm-7.1.0-py3-none-any.whl";
           })
           (listOptional withWheel_0_40_0 {
             name = "wheel-0.40.0-py3-none-any.whl";
-            sha256 = "0izjbcsxh6nawadg540g34q5q758xralra0g77rdl8mmgh7b4dnj";
+            sha256 = "";
             url = "https://pypi.org/packages/py3/w/wheel/wheel-0.40.0-py3-none-any.whl";
           })
           (listOptional true {
             name = "pip-21.2.4-py3-none-any.whl";
-            sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
+            sha256 = "+p67hdP9YHYXwMRKyjArG0XYf5wqFkm0bCYWfKQpYyM=";
             url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
           })
         ]));
